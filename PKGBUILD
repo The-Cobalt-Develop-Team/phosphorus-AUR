@@ -1,6 +1,6 @@
 pkgname="phosphorus"
 
-pkgver="1.0"
+pkgver="1.1"
 
 pkgrel="1"
 
@@ -21,3 +21,4 @@ package() {
     cp "${srcdir}/phosphorus" "${pkgdir}/usr/bin/phosphorus"
     chmod +x "${pkgdir}/usr/bin/phosphorus"
 }
+
